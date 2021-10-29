@@ -1,0 +1,24 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "simple web server in nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manojeluri/nodeprojects.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server"
+  ],
+  "author": "Manoj Eluri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manojeluri/nodeprojects/issues"
+  },
+  "homepage": "https://github.com/manojeluri/nodeprojects#readme"
+}
