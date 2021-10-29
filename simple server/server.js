@@ -4,3 +4,4 @@ var http = require("http"),
     path = require("path"),
     fs = require("fs");
 
+//Array of Mime Types
