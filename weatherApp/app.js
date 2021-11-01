@@ -1,4 +1,5 @@
 var http = require('http');
+var fs = require('fs');
 var url = "http://api.openweathermap.org/data/2.5/weather?q=New+York,US&appid=d023af95a70b814ef43150e52112910a&units=metric"
 var server = http.createServer(function(request, response){
 //All logic goes here
