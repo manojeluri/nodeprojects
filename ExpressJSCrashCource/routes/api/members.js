@@ -31,7 +31,7 @@ router.post('/',(req, res)=>{
         return res.status(400).json({msg: "Please include a name and an email"});
     }
     members.push(newMember);
-    res.json(members);
+    res.redirect('/');
 });
 //Update member
 router.put('/:id',(req,res)=>{
