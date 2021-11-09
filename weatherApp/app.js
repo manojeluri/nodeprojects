@@ -4,7 +4,7 @@ var url = "http://api.openweathermap.org/data/2.5/weather?q=New+York,US&appid=d0
 var server = http.createServer(function(request, response){
 //All logic goes here
     var request = require('request');
-    request(url, function(err, res, body){
+    request(url,(err, res, body)=>{
         var data = JSON.parse(body);
         response.write("<html><body><div id = 'container'>");
         response.write("<p>Enter city: "+"<input type = 'text' name='city'>"+"</p>");
